@@ -10,9 +10,15 @@ module.exports = {
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     },
-    "plugins": [],
+    "plugins": [
+        "warsaw-js-presentation"
+    ],
     "rules": {
+        "warsaw-js-presentation/jqueryRevolution": 'error'
     }
 }

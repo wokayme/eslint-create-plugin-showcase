@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint ./index.js"
+    "eslint": "eslint ./index.jsx"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.22.0",
+    "eslint-plugin-warsaw-js-presentation": "*"
   }
 }
